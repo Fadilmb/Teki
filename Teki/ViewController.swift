@@ -10,16 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    var celebrities = ["Madonna", "Zidane", "Lagarfeld"]
+    var activities = ["du barbecue", "de la raclette", "de la danse"]
+    
+    @IBOutlet weak var quoteLabel: UILabel!
+    @IBAction func changeQuote() {
+        let randomIndex1 = Int(arc4random_uniform(UInt32(celebrities.count)))
+        let celebrity = celebrities[randomIndex1]
+        
+        let randomIndex2 = Int(arc4random_uniform(UInt32(activities.count)))
+        let activity = activities[randomIndex2]
+        
+        let quote = "Tu es " + celebrity + " " + activity
+        quoteLabel.text = quote
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

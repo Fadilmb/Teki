@@ -54,14 +54,22 @@
 		B642016B1F966C4D00B74F39 /* Teki */ = {
 			isa = PBXGroup;
 			children = (
-				B642016C1F966C4D00B74F39 /* AppDelegate.swift */,
+				B64201821F966E2D00B74F39 /* Supporting Files */,
 				B642016E1F966C4D00B74F39 /* ViewController.swift */,
-				B64201701F966C4D00B74F39 /* Main.storyboard */,
-				B64201731F966C4D00B74F39 /* Assets.xcassets */,
-				B64201751F966C4D00B74F39 /* LaunchScreen.storyboard */,
 				B64201781F966C4D00B74F39 /* Info.plist */,
+				B64201701F966C4D00B74F39 /* Main.storyboard */,
 			);
 			path = Teki;
+			sourceTree = "<group>";
+		};
+		B64201821F966E2D00B74F39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B642016C1F966C4D00B74F39 /* AppDelegate.swift */,
+				B64201731F966C4D00B74F39 /* Assets.xcassets */,
+				B64201751F966C4D00B74F39 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
